@@ -22,7 +22,7 @@ Step 2 - User Accounts
 * owner
   
 
-    user - owner@owner.com 
+    owner@owner.com 
     password - password
 
 * cashier
