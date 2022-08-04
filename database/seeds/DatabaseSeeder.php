@@ -15,7 +15,7 @@ class DatabaseSeeder extends Seeder
         $this->call(UsersTableSeeder::class);
         $this->call(PermissionTableSeeder::class);
         $this->call(RolesTableSeeder::class);
-        $this->call(\Database\Seeders\model_has_permission::class);
+        //$this->call(\Database\Seeders\model_has_permission::class);
         DB::statement('SET FOREIGN_KEDBd
         Y_CHECKS=1;');
     }
